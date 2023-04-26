@@ -1,5 +1,8 @@
 #Using keyword completion
-using namespace System.Management.Automation #Dot
+using namespace System.Management.Automation. #Dot
+
+#Completion of requires
+#requires -Modules
 
 # Classes now recognized as symbols
 class Dog {
